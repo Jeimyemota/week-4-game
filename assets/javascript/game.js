@@ -7,7 +7,7 @@ $(document).ready(function(){
 	//the code below will print the above variable to the console.
 	console.log(random);
 	//the code below is pulling from the variable random and putting it in the html
-	$("#number").text(random);
+	$("#gemNum").text(random);
 
 
 		//number array and printing the wins and losses
@@ -94,7 +94,7 @@ $(document).ready(function(){
 	function reset() {
 	random = Math.floor(Math.random()*101 + 19);
 		console.log(random)
-		$("#number").text(random);
+		$("#gemNum").text(random);
 		numberGenerated = [];
 		randomNumbers();
 		total = 0;

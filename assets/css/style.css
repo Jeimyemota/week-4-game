@@ -89,11 +89,14 @@ body{
 
 
 						/*positioning*/
-						#homegem{
-							position: absolute;
-							z-index: -1px;
-							top: 500px;
-							right: 615px;
+						#number p {
+							position: relative;
+							z-index: -1;
+							float: center;
+							background-color: #fff;
+							filter: alpha(opacity=60);
+						opacity: 0.8;
+
 						}
 						#gemRow{
 							padding-top: 40px;
@@ -107,3 +110,4 @@ body{
 						 	font-size: 18px;
 						 	color: navy;
 						 }
+						
